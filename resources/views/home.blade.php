@@ -43,7 +43,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>{{ config('app.name') }}</span>
       <!-- logo for regular state and mobile devices -->
@@ -97,6 +97,9 @@
                                                       class="btn btn-default btn-flat">
                                             Logout
                                         </a>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+    {{ csrf_field() }}
+</form>
                 </div>
               </li>
             </ul>
