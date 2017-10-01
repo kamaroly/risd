@@ -255,7 +255,7 @@
         <section class="col-lg-12 connectedSortable">
 
           <!-- Map box -->
-          <div class="box box-solid bg-light-blue-gradient">
+          {{-- <div class="box box-solid bg-light-blue-gradient">
             <div class="box-header">
               <!-- tools box -->
               <div class="pull-right box-tools">
@@ -298,7 +298,7 @@
               </div>
               <!-- /.row -->
             </div>
-          </div>
+          </div> --}}
           <!-- /.box -->
 
           <!-- solid sales graph -->
